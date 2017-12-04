@@ -25,7 +25,7 @@ img { transition: transform 0.25s ease; }
 img:active { -webkit-transform: scale(2); }
 img:active { transform: scale(2); }
 
-/* CV */
+/* Schedule */
 .cv { margin: 0px 0px 60px; }
 .cv h1 { font-size: 3em; }
 .cv h2 { font-size: 2em; }
