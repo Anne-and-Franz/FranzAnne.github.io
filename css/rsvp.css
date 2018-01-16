@@ -16,11 +16,9 @@ p.line {margin: 0px auto 20px auto;color: #999;}
 input:focus {outline: 0;}
 
 .button button {display: inline-block;width: 400px;}
-button {color: #666;background-color: #ffbdc7;border: none;font-family: 'Raleway';font-size: 18px;font-weight: 600;padding: 15px 32px;width: 200px;margin: 20px auto 0px auto; float:left;}
+button {color: #666;background-color: #F7D358;border: none;font-family: 'Raleway';font-size: 18px;font-weight: 600;padding: 15px 32px;width: 200px;margin: 20px auto 0px auto; float:left;}
 
-button.accept {border-radius: 0px 0px 0px 10px;border-right: solid 1px #cc919a;}
-
-button.regret {border-radius: 0px 0px 10px 0px;}
+button.submit {border-radius: 0px 0px 0px 10px;border-right: solid 1px #F7D358;}
 
 button:hover {background-color: #F7D358;transition: .5s;}
 
