@@ -22,6 +22,6 @@ button.accept {border-radius: 0px 0px 0px 10px;border-right: solid 1px #cc919a;}
 
 button.regret {border-radius: 0px 0px 10px 0px;}
 
-button:hover {background-color: #cc919a;transition: .5s;}
+button:hover {background-color: #F7D358;transition: .5s;}
 
 button:focus {outline: 0;}
