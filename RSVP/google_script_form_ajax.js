@@ -12,3 +12,7 @@ $('#submit-form').on('click', function(e) {
     // do something
   );
 })
+<head>
+  <script src="jquery.min.js"></script>
+  <script src="jquery.serialize-object.min.js"></script>
+</head>
