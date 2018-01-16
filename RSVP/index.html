@@ -1,11 +1,39 @@
 <form id="test-form">
-<link rel="stylesheet" href="../css/rsvp.css">
-<body>
-  <div class="top">
+  
+  <div>
+    <label>Field 1</label>
+    <input type="text" name="form_field_1" placeholder="Field 1"/>
   </div>
-  <div class="form" action="https://script.google.com/macros/s/AKfycbxRAGTKMh5JkPZYSEoQ0T4E3unzxx9BvcgkpuTXL9_ktGJfo1zU/exec">
-    <div class ="info">
-    <h1>RSVP</h1>
+
+  <div>
+    <label>Field 2</label>
+    <input type="text" name="form_field_2" placeholder="Field 2"/>
+  </div>
+  
+  <div>
+    <label>Field 3</label>
+    <input type="text" name="form_field_3" placeholder="Field 3"/>
+  </div>
+  
+  <div>
+    <label>Field 4</label>
+    <input type="text" name="form_field_4" placeholder="Field 4"/>
+  </div>
+
+  <div>
+    <button type="submit"id="submit-form">Submit</button>
+  </div>
+
+</form>
+
+//<form id="test-form">
+//<link rel="stylesheet" href="../css/rsvp.css">
+//<body>
+// <div class="top">
+//  </div>
+//  <div class="form" action="https://script.google.com/macros/s/AKfycbxRAGTKMh5JkPZYSEoQ0T4E3unzxx9BvcgkpuTXL9_ktGJfo1zU/exec">
+//    <div class ="info">
+//    <h1>RSVP</h1>
     <h2>for the wedding of</h2>
     <h1>Anne & Franz</h1>
       <p class= "line">________________________________________</p>
@@ -17,25 +45,11 @@
       <p>The Ledges</p>
       <p>191 Pilot House Rd, New London, NH</p>
            <p class= "line">________________________________________</p>
-    <input type="text" name="Name" placeholder="Name">
-    <input type="number" name="Number" placeholder="# of Guests">
-      <input type="text" name="Answer" placeholder="Accept or Decline">
-    <button type="submit"id="submit-form">Submit</button>
+//    <input type="text" name="Name" placeholder="Name">
+//    <input type="number" name="Number" placeholder="# of Guests">
+//      <input type="text" name="Answer" placeholder="Accept or Decline">
+//    <button type="submit"id="submit-form">Submit</button>
   </div>
   </div>
 </body>
-</form>
-var $form = $('form#test-form'),
-    url = 'https://script.google.com/macros/s/AKfycbxRAGTKMh5JkPZYSEoQ0T4E3unzxx9BvcgkpuTXL9_ktGJfo1zU/exec'
-
-$('#submit-form').on('click', function(e) {
-  e.preventDefault();
-  var jqxhr = $.ajax({
-    url: url,
-    method: "GET",
-    dataType: "json",
-    data: $form.serializeObject()
-  }).success(
-    // do something
-  );
-})
+//</form>
